@@ -103,4 +103,4 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-/moutai_logistics/settings.py
+/moutai_logistics/moutai_logistics/settings.py
