@@ -25,11 +25,11 @@ class CarTransportLedger(BaseModel):
         (0, '施封'),
         (1, '解封'),
     )
-    car = models.ForeignKey('Car', on_delete=models.CASCADE, verbose_name='操作车辆')
+    car_name = models.CharField(max_length=20, verbose_name='车牌号')
     state = models.SmallIntegerField(default=0, choices=status_choices, verbose_name='施解封状态')
     location = models.CharField(max_length=11, null=True, verbose_name='地点')
     operation_time = models.DateTimeField(default=timezone.now,verbose_name='操作时间')
-    problem_registration = models.CharField(max_length=256, verbose_name='问题登记')
+    problem_registration = models.CharField(max_length=256, null=True, blank=True, verbose_name='问题登记')
 
     class Meta:
         db_table = 'ml_car_transport_ledger'
