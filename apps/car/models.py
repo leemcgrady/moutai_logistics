@@ -35,3 +35,7 @@ class CarTransportLedger(BaseModel):
         db_table = 'ml_car_transport_ledger'
         verbose_name = '运输台账'
         verbose_name_plural = verbose_name
+
+
+
+
