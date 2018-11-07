@@ -1,5 +1,5 @@
 from django.contrib import admin
-from car.models import Car, CarTransportLedger
+from car.models import Car, CarTransportLedger, Settlement
 from django.http import HttpResponse
 from xlwt import *
 import os
@@ -15,6 +15,7 @@ from django.utils.deprecation import MiddlewareMixin
 # owner_phone = models.CharField(max_length=11, null=True, verbose_name='车主电话')
 # driver_name = models.CharField(max_length=20, null=True, verbose_name='驾驶员姓名')
 # driver_phone = models.CharField(max_length=11, null=True, verbose_name='驾驶员电话')
+
 class CarAdmin(admin.ModelAdmin):
     fields = ('car_name', 'owner_name', 'owner_phone', 'driver_name', "driver_phone")
     list_display = ('car_name', 'owner_name', 'owner_phone', 'driver_name', 'driver_phone')
@@ -86,6 +87,17 @@ class CarTransportLedgerAdmin(admin.ModelAdmin):
     actions = ["save_execl"]
     search_fields = ('car_name', )
 
+
+    def add_view(self, request, form_url='', extra_context=None):
+        # print('----%s---' % request)
+
+        return super().add_view(request)
+
+    def save_model(self, request, obj, form, change):
+        car_info = Car.objects.get(car_name__contains=obj.car_name)
+        obj.car_id = car_info.id
+        obj.save()
+
     def car_name(self, obj):
         return obj.car.car_name
 
@@ -149,5 +161,39 @@ class CarTransportLedgerAdmin(admin.ModelAdmin):
     save_execl.short_description = "导出Excel"  # 按钮显示名字
 
 
+# car_id = models.IntegerField(blank=True, null=True, verbose_name='车辆id')
+# number = models.IntegerField(verbose_name='编号')
+# car_name = models.CharField(max_length=20, verbose_name='车牌号')
+# payee = models.CharField(max_length=20, verbose_name='收款人')
+# destination = models.TextField(verbose_name='目的地')
+# transportation_time = models.TextField(verbose_name='目的地')
+# settlement_number = models.TextField    (verbose_name='结算单号')
+# total_freight = models.CharField(max_length=20, verbose_name='总运费')
+# buckle_oil = models.TextField(verbose_name='扣油')
+# demand_for_cost = models.CharField(max_length=20, verbose_name='车主应进费用')
+# ETC_cost = models.CharField(max_length=20, verbose_name='ETC费用')
+# other_cost = models.CharField(max_length=20, verbose_name='其他费用')
+# labor_ticket_amount = models.CharField(max_length=20, verbose_name='应开劳务票金额')
+# taxation_for_bank = models.CharField(max_length=20, verbose_name='应交税费（转银行卡）')
+# taxation_for_wechat = models.CharField(max_length=20, verbose_name='应交税费（转微信）')
+# remarks = models.CharField(max_length=11, null=True, verbose_name='备注')
+class SettlementAdmin(admin.ModelAdmin):
+    fields = ('number', 'car_name', 'payee', 'destination',
+              "transportation_time", 'settlement_number', 'total_freight',
+              'buckle_oil', 'demand_for_cost', 'ETC_cost', 'other_cost', 'labor_ticket_amount', 'taxation_for_bank',
+              'taxation_for_wechat', 'remarks')
+    list_display = ('number', 'car_name', 'payee', 'destination',
+              "transportation_time", 'settlement_number', 'total_freight',
+              'buckle_oil', 'demand_for_cost', 'ETC_cost', 'other_cost', 'labor_ticket_amount', 'taxation_for_bank',
+              'taxation_for_wechat', 'remarks')
+
+    def save_model(self, request, obj, form, change):
+        car_info = Car.objects.get(car_name__contains=obj.car_name)
+        obj.car_id = car_info.id
+        # obj.transportation_time = obj.transportation_time.replace("\r\n", "\n")
+        # obj.transportation_time = obj.transportation_time.replace("\n", "</br>|linebreaksbr")
+        obj.save()
+
 admin.site.register(Car, CarAdmin)
 admin.site.register(CarTransportLedger, CarTransportLedgerAdmin)
+admin.site.register(Settlement, SettlementAdmin)
