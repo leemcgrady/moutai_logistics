@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8164d08b-5ed8-46df-b548-c7d05418c1ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/car/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/car/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/car/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/car/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.xls" beforeDir="false" afterPath="$PROJECT_DIR$/test.xls" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +17,15 @@
     <session id="949183974">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -30,7 +33,7 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="5" />
           <entry key="js" value="1" />
-          <entry key="py" value="29" />
+          <entry key="py" value="33" />
           <entry key="xls#" value="1" />
         </counts>
       </usages-collector>
@@ -39,32 +42,58 @@
           <entry key="HTML" value="5" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="29" />
+          <entry key="Python" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="20" />
           <entry key="html" value="277" />
-          <entry key="py" value="1737" />
+          <entry key="py" value="2345" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="277" />
           <entry key="PLAIN_TEXT" value="20" />
-          <entry key="Python" value="1737" />
+          <entry key="Python" value="2345" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/car/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1541656195816" expanded="true" signature="1047:1510" ph="..." />
+                <marker date="1541656195816" expanded="true" signature="1550:1559" ph="..." />
+                <marker date="1541656195816" expanded="true" signature="4308:4314" ph="..." />
+                <marker date="1541656195816" expanded="true" signature="4363:4372" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/car/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/commen.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/moutai_logistics/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+            <state relative-caret-position="345">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="e#317#326#0" expanded="true" />
               </folding>
@@ -72,42 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/car/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="192" column="63" selection-start-line="192" selection-start-column="63" selection-end-line="193" selection-end-column="65" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-                <marker date="1541597744633" expanded="true" signature="3708:3717" ph="..." />
-                <marker date="1541597744633" expanded="true" signature="3789:3795" ph="..." />
-                <marker date="1541597744633" expanded="true" signature="3844:3853" ph="..." />
-                <marker date="1541597744633" expanded="true" signature="3912:3970" ph="..." />
-                <marker date="1541597744633" expanded="true" signature="7992:8001" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.5/dist-packages/django/contrib/admin/options.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="1507" column="16" selection-start-line="1507" selection-start-column="8" selection-end-line="1507" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/dailyfresh/lib/python3.5/site-packages/django/utils/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/car/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="60" column="30" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="30" />
+            <state relative-caret-position="165">
+              <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -183,7 +181,16 @@
       <find>addUser</find>
       <find>reload</find>
       <find>add_view</find>
+      <find>demand_for_cost</find>
+      <find>DecimalField</find>
+      <find>FloatField</find>
+      <find>carobj</find>
+      <find>number</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>car_number</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -196,7 +203,6 @@
         <option value="$PROJECT_DIR$/moutai_logistics/__init__.py" />
         <option value="$PROJECT_DIR$/apps/user/urls.py" />
         <option value="$PROJECT_DIR$/apps/user/models.py" />
-        <option value="$PROJECT_DIR$/db/commen.py" />
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/apps/car/views.py" />
         <option value="$PROJECT_DIR$/apps/car/urls.py" />
@@ -205,6 +211,7 @@
         <option value="$USER_HOME$/.virtualenvs/dailyfresh/lib/python3.5/site-packages/xadmin/models.py" />
         <option value="$USER_HOME$/.virtualenvs/dailyfresh/lib/python3.5/site-packages/xadmin/views/__init__.py" />
         <option value="$PROJECT_DIR$/moutai_logistics/urls.py" />
+        <option value="$PROJECT_DIR$/db/commen.py" />
         <option value="$PROJECT_DIR$/moutai_logistics/settings.py" />
         <option value="$PROJECT_DIR$/apps/car/models.py" />
         <option value="$PROJECT_DIR$/apps/car/admin.py" />
@@ -242,6 +249,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,13 +271,6 @@
             <path>
               <item name="moutai_logistics" type="b2602c69:ProjectViewProjectNode" />
               <item name="moutai_logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="car" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moutai_logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moutai_logistics" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -281,7 +282,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,13 +327,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="64" y="-11" width="1377" height="912" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26640928" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27381846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -343,7 +344,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31737775" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3162612" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -390,18 +391,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/car/migrations/0002_auto_20181107_1217.py" />
     <entry file="file://$PROJECT_DIR$/.~lock.test.xls#" />
-    <entry file="file://$PROJECT_DIR$/db/commen.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/base_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/car/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/slide.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -433,13 +428,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/dailyfresh/lib/python3.5/site-packages/xadmin/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/dailyfresh/lib/python3.5/site-packages/xadmin/models.py" />
     <entry file="file://$USER_HOME$/.virtualenvs/dailyfresh/lib/python3.5/site-packages/django/utils/autoreload.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3255">
@@ -447,15 +436,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/dailyfresh/lib/python3.5/site-packages/xadmin/sites.py" />
+    <entry file="file://$USER_HOME$/.virtualenvs/dailyfresh/lib/python3.5/site-packages/xadmin/views/__init__.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/django/contrib/admin/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21855">
+          <caret line="1507" column="16" selection-start-line="1507" selection-start-column="8" selection-end-line="1507" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/dailyfresh/lib/python3.5/site-packages/django/utils/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/dailyfresh/lib/python3.5/site-packages/xadmin/sites.py">
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="25950">
+          <caret line="1769" column="16" selection-start-line="1769" selection-start-column="6" selection-end-line="1769" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/car/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/car/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moutai_logistics/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -481,53 +492,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/dailyfresh/lib/python3.5/site-packages/xadmin/views/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moutai_logistics/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/db/commen.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/moutai_logistics/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+        <state relative-caret-position="345">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="e#317#326#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/django/contrib/admin/options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="1507" column="16" selection-start-line="1507" selection-start-column="8" selection-end-line="1507" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/car/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/car/apps.py">
+    <entry file="file://$PROJECT_DIR$/apps/car/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/car/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="60" column="30" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="30" />
+        <state relative-caret-position="165">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -536,15 +520,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/car/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="192" column="63" selection-start-line="192" selection-start-column="63" selection-end-line="193" selection-end-column="65" />
+        <state relative-caret-position="330">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <marker date="1541597744633" expanded="true" signature="3708:3717" ph="..." />
-            <marker date="1541597744633" expanded="true" signature="3789:3795" ph="..." />
-            <marker date="1541597744633" expanded="true" signature="3844:3853" ph="..." />
-            <marker date="1541597744633" expanded="true" signature="3912:3970" ph="..." />
-            <marker date="1541597744633" expanded="true" signature="7992:8001" ph="..." />
+            <marker date="1541656195816" expanded="true" signature="1047:1510" ph="..." />
+            <marker date="1541656195816" expanded="true" signature="1550:1559" ph="..." />
+            <marker date="1541656195816" expanded="true" signature="4308:4314" ph="..." />
+            <marker date="1541656195816" expanded="true" signature="4363:4372" ph="..." />
           </folding>
         </state>
       </provider>
